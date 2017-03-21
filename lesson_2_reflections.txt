@@ -22,3 +22,33 @@ where any files that need to be committed are added
 before the final commit takes place. In this way, it 
 offers a place to check the files we want to commit 
 before they are added to the repo for tracking.
+
+How can you use the staging area to make sure you 
+have one commit per logical change?
+
+We can use the diff command without arguments to check
+differences between the working directory version and 
+staging area versions. This will show how much extra code
+has been written in and a judgement call can be made 
+on whether it is time to stage. Similarly diff --staged 
+will show the difference between the staging area and the 
+repo commits, so a call can be made on whether the 
+staging area edits should be committed.
+
+What are some situations when branches would be helpful 
+in keeping your history organized? How would branches 
+help?
+
+When introducing any features that are not a logical 
+extension of the code developed int he current thread, 
+it is better to make a new branch so these new features 
+can safely be developed in that branch without becoming 
+the latest version of the current master code. At a later 
+time, when the features in the auxiiary branch are complete, 
+they can be added to the master branch. This feature comes 
+in handy when developing new versions of a producs, or for 
+experimentation and exploration in new directions, based 
+on the master code, etc.
+Thus each new logical area of exploration/development can 
+be conducted in its separate branch, keeping the code organized 
+and manageable.
