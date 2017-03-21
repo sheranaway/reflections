@@ -1,0 +1,24 @@
+What happens when you initialize a repository? 
+Why do you need to do it?
+
+a .git file is created in the folder of the repo, 
+which maintains details of the repository's 
+history. Thus, a normal directory gets converted 
+to a git repository that can be committed as 
+required.
+Inititalization is required in order to change 
+our folders from regular directories to git repo's 
+that can be committed and tracked.
+
+How is the staging area different from the working 
+directory and the repository? What value do you 
+think it offers?
+
+Repository is the collection of files being 
+definitively tracked, whereas working directory is
+the directory we are currently positioned in through 
+Git Bash. The staging area is the intermediate area 
+where any files that need to be committed are added 
+before the final commit takes place. In this way, it 
+offers a place to check the files we want to commit 
+before they are added to the repo for tracking.
