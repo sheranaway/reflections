@@ -64,3 +64,18 @@ its parent commit. Thus, it helps to see the entire Git
 history in a graphical format in an organized way, rather 
 than as a log of commits.
 
+What is the result of merging two branches together? 
+Why do we represent it in the diagram the way we do?
+
+The result of merging to branches together is that all the 
+commits made to both branches become part of the branch 
+that was checked out at the time of the merge. The commits
+get arranged in reverse chronological order according to 
+their timestamps.
+They are represented in the diagram in this way so that we 
+can see the exact commit where the branches diverged, then 
+all the changes that were made to each branch while they 
+were separate are shown in parallel, and finally, the 
+diagram shows the commit where we merge the two branches as 
+the node where the two branches becomes one and any further 
+commits are added to this single branch.
