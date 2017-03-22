@@ -41,3 +41,14 @@ version of a project and combined with the original, but with
 the bonus that it is hosted on GitHub and so can be shared 
 readily, and other users can be given access to clone and 
 push/pull directly through Github.
+
+What is the benefit of having a copy of the last known 
+state of the remote stored locally?
+
+The cpy helps us keep track of what commit we were on, so that 
+we can track how many commits we have made that haven't yet 
+been pushed to remote. At the same time, using fetch, we can 
+keep track of any changes that other users might have pushed 
+to the remote, that we do not yet have on our local machine. 
+Thus, various branches of the remote and local repositories can
+be organized.
