@@ -1,0 +1,9 @@
+When would you want to use a remote repository rather 
+than keeping all your work local?
+
+It would be better to keep a reporsitory that contains 
+materials from a collaborative project remote so that 
+every contributor can keep adding their changes without
+depending on other users, and other users can obtain 
+said changes as they need. Local repositories would work 
+better for single-contributor projects.
