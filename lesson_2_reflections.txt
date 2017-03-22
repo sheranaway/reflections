@@ -79,3 +79,15 @@ were separate are shown in parallel, and finally, the
 diagram shows the commit where we merge the two branches as 
 the node where the two branches becomes one and any further 
 commits are added to this single branch.
+
+What are the pros and cons of Git’s automatic merging vs. 
+always doing merges manually?
+
+Automatic merge saves time and effort over manual merging, 
+reduces the instance of typos and other human error. 
+A con of automatic merge vs. manual merge is that in case of 
+conflicts, very simple conflicts might have to be cleaned up
+just because two changes happen to be in the same general 
+area. Additionally, it might skip over some important changes
+that are required in the final output, or might put in 
+redundant code when it is not needed.
