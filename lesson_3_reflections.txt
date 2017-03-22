@@ -28,15 +28,16 @@ concept, or are expansions of a single part of a project.
 Clones - are copies of git repostories, either of a remote 
 repo, or one hosted on the same computer. They can be used 
 to maintain and work on our versions of a project locally,
-and then combined with the original as required and through
-the repo owners permission.
+and then combined with the original as required and with
+the repo owners permission by pushing local changes to the 
+remote.
 Forks - are clones that apply only on the GitHub website. 
-Tey allow us to maintain a copy of another repo on our own 
-GitHub page, which copy can be clones to our local machine 
+hTey allow us to maintain a copy of another repo on our own 
+GitHub page, which copy can be cloned to our local machine 
 to provide an automatic remote that would push/pull from our 
-copy on GitHub rather tha disturbing the original. Similar to
+copy on GitHub rather than disturbing the original. Similar to
 clones, they can be used to maintain and work on our own 
 version of a project and combined with the original, but with
 the bonus that it is hosted on GitHub and so can be shared 
-readily, and other users can be given access directly through
-Github.
+readily, and other users can be given access to clone and 
+push/pull directly through Github.
