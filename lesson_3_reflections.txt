@@ -7,3 +7,13 @@ every contributor can keep adding their changes without
 depending on other users, and other users can obtain 
 said changes as they need. Local repositories would work 
 better for single-contributor projects.
+
+Why might you want to always pull changes manually 
+rather than having Git automatically stay up-to-date with 
+your remote repository?
+
+Manual pull let's users pull chages only when they need, 
+so they don't accidentally combine parts that they don't 
+need or that will interfere with their purpose. If pulls 
+were automatic, it would cause a lot of confusion, and in
+most cases, make the code unusable for the user.
