@@ -17,3 +17,26 @@ so they don't accidentally combine parts that they don't
 need or that will interfere with their purpose. If pulls 
 were automatic, it would cause a lot of confusion, and in
 most cases, make the code unusable for the user.
+
+Describe the differences between forks, clones, and 
+branches. When would you use one instead of another?
+
+Branches -  are different off-shoots of code history that 
+have a common commit ancestor. They are useful when 
+exploring new ideas that fall within the same general 
+concept, or are expansions of a single part of a project.
+Clones - are copies of git repostories, either of a remote 
+repo, or one hosted on the same computer. They can be used 
+to maintain and work on our versions of a project locally,
+and then combined with the original as required and through
+the repo owners permission.
+Forks - are clones that apply only on the GitHub website. 
+Tey allow us to maintain a copy of another repo on our own 
+GitHub page, which copy can be clones to our local machine 
+to provide an automatic remote that would push/pull from our 
+copy on GitHub rather tha disturbing the original. Similar to
+clones, they can be used to maintain and work on our own 
+version of a project and combined with the original, but with
+the bonus that it is hosted on GitHub and so can be shared 
+readily, and other users can be given access directly through
+Github.
